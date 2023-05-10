@@ -1,0 +1,44 @@
+
+
+body {
+
+    background-image: url("istockphoto-510978547-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+}
+
+
+
+main {
+
+    background-color: rgba(97, 196, 236, 0.758);
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20% 0 20%;
+    padding-bottom: 5em;
+    padding-top: 3em;
+    text-align: left;
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+
+.titolo {
+
+    color: black;
+    width: 100%;
+    text-align: center; 
+    padding-bottom: 0.5em;
+ 
+}
+
+.crea { 
+    
+    text-align: center;
+    padding-top: 2em;
+}
