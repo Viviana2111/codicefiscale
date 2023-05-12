@@ -1,0 +1,30 @@
+.codfis {
+    background-color: rgba(6, 175, 241, 0.758);
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20% 0 20%;
+    padding-bottom: 2em;
+    padding-top: 3em;
+    text-align: left;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+    border-color: black;
+}
+
+h1 {
+    text-align: center;
+    
+}
+h3 {
+    padding-bottom: 1em;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 0.9em;
+    font-style: normal;
+}
