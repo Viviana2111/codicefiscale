@@ -1,44 +1,139 @@
+/* CSS PER SCHERMI GRANDI */
+@media screen and (min-width: 768px) {
+    .nome {
+
+        justify-content: flex-start;
+        padding-left: 2%;
+        padding-bottom: 1%;
+    }
 
 
-body {
 
-    background-image: url("istockphoto-510978547-612x612.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-  
+
+    main {
+
+        background-color: rgba(6, 175, 241, 0.758);
+        border-radius: 2%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 20% 0 20%;
+        padding-bottom: 1em;
+        padding-top: 3em;
+        text-align: left;
+        font-size: larger;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-color: black;
+
+    }
+
+    .immagine {
+
+        width: 20%;
+        position: relative;
+        min-height: 20%;
+
+    }
+
+    .immagine>img {
+
+        height: 30%;
+
+    }
+
+    .calcolocodicefiscale {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+
+    .titolo {
+
+        color: black;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0.5em;
+
+    }
+
+    .crea {
+
+        text-align: center;
+        padding-top: 2em;
+    }
 }
 
 
+/* CSS PER SCHERMI MOBILE */
+@media screen and (max-width: 768px) {
 
-main {
+    .nome {
 
-    background-color: rgba(97, 196, 236, 0.758);
-    border-radius: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 20% 0 20%;
-    padding-bottom: 5em;
-    padding-top: 3em;
-    text-align: left;
-    font-size: larger;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
+        justify-content: flex-start;
+        padding-left: 2%;
+        padding-bottom: 1%;
+    }
 
 
 
-.titolo {
 
-    color: black;
-    width: 100%;
-    text-align: center; 
-    padding-bottom: 0.5em;
- 
-}
+    main {
 
-.crea { 
-    
-    text-align: center;
-    padding-top: 2em;
+        background-color: rgba(6, 175, 241, 0.758);
+        border-radius: 2%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 20% 0 20%;
+        padding-bottom: 1em;
+        padding-top: 3em;
+        text-align: left;
+        font-size: larger;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-color: black;
+
+    }
+
+    .immagine {
+
+        width: 20%;
+        position: relative;
+        min-height: 20%;
+        display: none;
+
+    }
+
+    .immagine>img {
+
+        height: 30%;
+
+    }
+
+
+
+
+    .calcolocodicefiscale {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+
+
+    .titolo {
+
+        color: black;
+        text-align: center;
+        padding-bottom: 0.5em;
+
+    }
+
+    .crea {
+
+        text-align: center;
+        padding-top: 2em;
+    }
 }
